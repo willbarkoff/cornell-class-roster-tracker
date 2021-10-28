@@ -90,7 +90,7 @@ func main() {
 	subjectCollector.Wait()
 
 	for _, v := range subjects {
-		c.Visit("https://classes.cornell.edu/browse/roster/SP21/subject/" + v)
+		c.Visit("https://classes.cornell.edu/browse/roster/SP22/subject/" + v)
 		fmt.Println("Visiting", v)
 		time.Sleep(time.Second)
 	}
